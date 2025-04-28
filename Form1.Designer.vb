@@ -22,55 +22,55 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.btnStart = New System.Windows.Forms.Button()
+        Me.btnStop = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.cboClient = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.lblStart = New System.Windows.Forms.Label()
         Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.lblFinish = New System.Windows.Forms.Label()
+        Me.lblBilling = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnStart
         '
-        Me.Button1.Location = New System.Drawing.Point(22, 200)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Start"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnStart.Location = New System.Drawing.Point(22, 200)
+        Me.btnStart.Name = "btnStart"
+        Me.btnStart.Size = New System.Drawing.Size(75, 23)
+        Me.btnStart.TabIndex = 0
+        Me.btnStart.Text = "Start"
+        Me.btnStart.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnStop
         '
-        Me.Button2.Location = New System.Drawing.Point(166, 200)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Stop"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnStop.Location = New System.Drawing.Point(166, 200)
+        Me.btnStop.Name = "btnStop"
+        Me.btnStop.Size = New System.Drawing.Size(75, 23)
+        Me.btnStop.TabIndex = 1
+        Me.btnStop.Text = "Stop"
+        Me.btnStop.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnExit
         '
-        Me.Button3.Location = New System.Drawing.Point(293, 200)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Exit"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnExit.Location = New System.Drawing.Point(293, 200)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.TabIndex = 2
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'cboClient
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(191, 40)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(271, 21)
-        Me.ComboBox1.TabIndex = 3
+        Me.cboClient.FormattingEnabled = True
+        Me.cboClient.Location = New System.Drawing.Point(191, 40)
+        Me.cboClient.Name = "cboClient"
+        Me.cboClient.Size = New System.Drawing.Size(271, 21)
+        Me.cboClient.TabIndex = 3
         '
         'Label1
         '
@@ -118,15 +118,15 @@ Partial Class Form1
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Billable hours , minutes:"
         '
-        'Label8
+        'lblStart
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label8.Location = New System.Drawing.Point(365, 105)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(108, 15)
-        Me.Label8.TabIndex = 9
-        Me.Label8.Text = "                                 "
+        Me.lblStart.AutoSize = True
+        Me.lblStart.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblStart.Location = New System.Drawing.Point(365, 105)
+        Me.lblStart.Name = "lblStart"
+        Me.lblStart.Size = New System.Drawing.Size(108, 15)
+        Me.lblStart.TabIndex = 9
+        Me.lblStart.Text = "                                 "
         '
         'HScrollBar1
         '
@@ -137,44 +137,44 @@ Partial Class Form1
         Me.HScrollBar1.Size = New System.Drawing.Size(479, 17)
         Me.HScrollBar1.TabIndex = 12
         '
-        'Label6
+        'lblFinish
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label6.Location = New System.Drawing.Point(365, 134)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(108, 15)
-        Me.Label6.TabIndex = 13
-        Me.Label6.Text = "                                 "
+        Me.lblFinish.AutoSize = True
+        Me.lblFinish.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblFinish.Location = New System.Drawing.Point(365, 134)
+        Me.lblFinish.Name = "lblFinish"
+        Me.lblFinish.Size = New System.Drawing.Size(108, 15)
+        Me.lblFinish.TabIndex = 13
+        Me.lblFinish.Text = "                                 "
         '
-        'Label7
+        'lblBilling
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label7.Location = New System.Drawing.Point(365, 164)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(108, 15)
-        Me.Label7.TabIndex = 14
-        Me.Label7.Text = "                                 "
+        Me.lblBilling.AutoSize = True
+        Me.lblBilling.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblBilling.Location = New System.Drawing.Point(365, 164)
+        Me.lblBilling.Name = "lblBilling"
+        Me.lblBilling.Size = New System.Drawing.Size(108, 15)
+        Me.lblBilling.TabIndex = 14
+        Me.lblBilling.Text = "                                 "
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(497, 253)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.lblBilling)
+        Me.Controls.Add(Me.lblFinish)
         Me.Controls.Add(Me.HScrollBar1)
-        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.lblStart)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.cboClient)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnStop)
+        Me.Controls.Add(Me.btnStart)
         Me.Name = "Form1"
         Me.Text = "Consulting Time Clock"
         Me.ResumeLayout(False)
@@ -182,17 +182,17 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents btnStart As Button
+    Friend WithEvents btnStop As Button
+    Friend WithEvents btnExit As Button
+    Friend WithEvents cboClient As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents lblStart As Label
     Friend WithEvents HScrollBar1 As HScrollBar
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
+    Friend WithEvents lblFinish As Label
+    Friend WithEvents lblBilling As Label
 End Class

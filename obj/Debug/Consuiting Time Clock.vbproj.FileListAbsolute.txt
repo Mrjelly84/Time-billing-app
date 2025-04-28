@@ -1,0 +1,12 @@
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting Time Clock.vbproj.AssemblyReference.cache
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting_Time_Clock.Form1.resources
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting Time Clock.vbproj.GenerateResource.cache
+C:\Users\willi\Source\Repos\Time-billing-app\bin\Debug\Consuiting Time Clock.exe.config
+C:\Users\willi\Source\Repos\Time-billing-app\bin\Debug\Consuiting Time Clock.exe
+C:\Users\willi\Source\Repos\Time-billing-app\bin\Debug\Consuiting Time Clock.pdb
+C:\Users\willi\Source\Repos\Time-billing-app\bin\Debug\Consuiting Time Clock.xml
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting_Time_Clock.Resources.resources
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting Time Clock.vbproj.CoreCompileInputs.cache
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting Time Clock.exe
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting Time Clock.xml
+C:\Users\willi\Source\Repos\Time-billing-app\obj\Debug\Consuiting Time Clock.pdb
