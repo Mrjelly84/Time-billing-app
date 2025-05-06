@@ -27,14 +27,14 @@ Partial Class Form1
         Me.btnExit = New System.Windows.Forms.Button()
         Me.cboClient = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblBilling = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.lblStart = New System.Windows.Forms.Label()
         Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
-        Me.lblFinish = New System.Windows.Forms.Label()
-        Me.lblBilling = New System.Windows.Forms.Label()
+        Me.lblStop = New System.Windows.Forms.Label()
+        Me.lblDurration = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnStart
@@ -81,15 +81,15 @@ Partial Class Form1
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Client Name:"
         '
-        'Label2
+        'lblBilling
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(43, 114)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(111, 13)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Billing in progress."
+        Me.lblBilling.AutoSize = True
+        Me.lblBilling.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBilling.Location = New System.Drawing.Point(43, 118)
+        Me.lblBilling.Name = "lblBilling"
+        Me.lblBilling.Size = New System.Drawing.Size(111, 13)
+        Me.lblBilling.TabIndex = 5
+        Me.lblBilling.Text = "Billing in progress."
         '
         'Label3
         '
@@ -137,39 +137,39 @@ Partial Class Form1
         Me.HScrollBar1.Size = New System.Drawing.Size(479, 17)
         Me.HScrollBar1.TabIndex = 12
         '
-        'lblFinish
+        'lblStop
         '
-        Me.lblFinish.AutoSize = True
-        Me.lblFinish.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblFinish.Location = New System.Drawing.Point(365, 134)
-        Me.lblFinish.Name = "lblFinish"
-        Me.lblFinish.Size = New System.Drawing.Size(108, 15)
-        Me.lblFinish.TabIndex = 13
-        Me.lblFinish.Text = "                                 "
+        Me.lblStop.AutoSize = True
+        Me.lblStop.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblStop.Location = New System.Drawing.Point(365, 134)
+        Me.lblStop.Name = "lblStop"
+        Me.lblStop.Size = New System.Drawing.Size(108, 15)
+        Me.lblStop.TabIndex = 13
+        Me.lblStop.Text = "                                 "
         '
-        'lblBilling
+        'lblDurration
         '
-        Me.lblBilling.AutoSize = True
-        Me.lblBilling.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBilling.Location = New System.Drawing.Point(365, 164)
-        Me.lblBilling.Name = "lblBilling"
-        Me.lblBilling.Size = New System.Drawing.Size(108, 15)
-        Me.lblBilling.TabIndex = 14
-        Me.lblBilling.Text = "                                 "
+        Me.lblDurration.AutoSize = True
+        Me.lblDurration.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblDurration.Location = New System.Drawing.Point(365, 164)
+        Me.lblDurration.Name = "lblDurration"
+        Me.lblDurration.Size = New System.Drawing.Size(108, 15)
+        Me.lblDurration.TabIndex = 14
+        Me.lblDurration.Text = "                                 "
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(497, 253)
-        Me.Controls.Add(Me.lblBilling)
-        Me.Controls.Add(Me.lblFinish)
+        Me.Controls.Add(Me.lblDurration)
+        Me.Controls.Add(Me.lblStop)
         Me.Controls.Add(Me.HScrollBar1)
         Me.Controls.Add(Me.lblStart)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lblBilling)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cboClient)
         Me.Controls.Add(Me.btnExit)
@@ -187,12 +187,12 @@ Partial Class Form1
     Friend WithEvents btnExit As Button
     Friend WithEvents cboClient As ComboBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents lblBilling As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents lblStart As Label
     Friend WithEvents HScrollBar1 As HScrollBar
-    Friend WithEvents lblFinish As Label
-    Friend WithEvents lblBilling As Label
+    Friend WithEvents lblStop As Label
+    Friend WithEvents lblDurration As Label
 End Class

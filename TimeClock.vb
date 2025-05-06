@@ -8,6 +8,10 @@
 
     End Sub
 
+    Public Sub StopClock()
+        stopApp = Now
+    End Sub
+
     Public ReadOnly Property StartTime As DateTime
         Get
             Return startApp
